@@ -1,0 +1,25 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database credentials (if local config contains passwords)
+# Do not ignore config/db.php if it contains the code needed to run the project
+
+# Temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Dependencies, if generated
+vendor/
+node_modules/
